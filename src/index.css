@@ -1,1 +1,6 @@
 @import "tailwindcss";
+
+body {
+	@apply bg-gray-50 text-gray-800;
+	padding-bottom: 3.5rem; /* biar konten gak ketutup navbar mobile */
+}
