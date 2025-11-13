@@ -12,5 +12,5 @@ export default defineConfig({
 		}),
 		tailwindcss(),
 	],
-	base: "./job-tracker-v2",
+	// base: "./job-tracker-v2",
 });
