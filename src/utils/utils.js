@@ -80,3 +80,13 @@ export const dummyJobs = [
 		notes: "Mulai training minggu depan",
 	},
 ];
+
+export function getDate(date) {
+	const newDate = new Date(date);
+
+	return newDate.toLocaleString("en-US", {
+		year: "2-digit",
+		month: "short",
+		day: "numeric",
+	});
+}
