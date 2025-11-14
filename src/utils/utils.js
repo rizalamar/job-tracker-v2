@@ -85,8 +85,8 @@ export function getDate(date) {
 	const newDate = new Date(date);
 
 	return newDate.toLocaleString("en-US", {
-		year: "2-digit",
-		month: "short",
+		year: "numeric",
+		month: "long",
 		day: "numeric",
 	});
 }
