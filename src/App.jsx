@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import React from "react";
 import Navbar from "./components/Navbar";
 import Dashboard from "./pages/Dashboard";
+import AddJob from "./pages/AddJob";
 
 export default function App() {
 	return (
@@ -9,7 +9,7 @@ export default function App() {
 			<Navbar />
 			<Routes>
 				<Route path="/" element={<Dashboard />} />
-				<Route path="/add" element />
+				<Route path="/add" element={<AddJob />} />
 				<Route path="/job/:id" element />
 				<Route path="/edit/:id" element />
 			</Routes>
