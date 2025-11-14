@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import Dashboard from "./pages/Dashboard";
 import AddJob from "./pages/AddJob";
 import EditJob from "./pages/EditJob";
+import JobDetail from "./pages/JobDetail";
 
 export default function App() {
 	return (
@@ -11,7 +12,7 @@ export default function App() {
 			<Routes>
 				<Route path="/" element={<Dashboard />} />
 				<Route path="/add" element={<AddJob />} />
-				<Route path="/job/:id" element />
+				<Route path="/job/:id" element={<JobDetail />} />
 				<Route path="/edit/:id" element={<EditJob />} />
 			</Routes>
 		</Router>
