@@ -1,4 +1,3 @@
-import React from "react";
 import { Link, useLocation } from "react-router-dom";
 
 export default function Navbar() {
@@ -10,7 +9,7 @@ export default function Navbar() {
 	];
 	return (
 		<nav className="fixed bottom-0 left-0 right-0 bg-white border-t border-gray-200 shadow-sm sm:static sm:border-b sm:shadow-none">
-			<div className="flex items-center justify-around max-w-7xl px6 py-4 mx-auto sm:justify-between sm:px-8 sm:py-5">
+			<div className="flex items-center justify-around py-4 mx-auto max-w-7xl px6 sm:justify-between sm:px-8 sm:py-5">
 				<h1 className="hidden text-2xl font-semibold text-gray-700 sm:block">
 					Job Tracker
 				</h1>
