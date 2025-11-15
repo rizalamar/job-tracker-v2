@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { useNavigate, useParams, Link } from "react-router-dom";
+import { getDate } from "../utils/utils";
 
 export default function JobDetail() {
 	const { id } = useParams();
@@ -49,7 +50,7 @@ export default function JobDetail() {
 					<span className="font-medium text-gray-600">
 						Date applied:{" "}
 					</span>
-					{job.dateApplied}
+					{getDate(job.dateApplied)}
 				</p>
 
 				<p>
