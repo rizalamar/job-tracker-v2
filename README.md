@@ -1,18 +1,66 @@
-# React + Vite
+# Job Tracker V2
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple job tracking application built with React and Vite.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+-   Add, edit, and delete job entries
+-   Dashboard view for job management
+-   Responsive design for mobile and desktop
+-   View job details
 
-## React Compiler
+## Technologies Used
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+-   React
+-   Vite
+-   JavaScript
+-   CSS
 
-Note: This will impact Vite dev & build performances.
+## Getting Started
 
-## Expanding the ESLint configuration
+### Prerequisites
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+-   Node.js (v14 or higher recommended)
+-   npm
+
+### Installation
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/rizalamar/job-tracker-v2.git
+    ```
+2. Navigate to the project directory:
+    ```bash
+    cd job-tracker-v2
+    ```
+3. Install dependencies:
+    ```bash
+    npm install
+    ```
+
+### Running the App
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+Open [http://localhost:5173](http://localhost:5173) in your browser to view the app.
+
+## Project Structure
+
+```
+src/
+  assets/         # Static assets
+  components/     # Reusable React components
+  pages/          # Page components
+  utils/          # Utility functions
+  App.jsx         # Main App component
+  main.jsx        # Entry point
+  index.css       # Global styles
+```
+
+## License
+
+This project is licensed under the MIT License.
