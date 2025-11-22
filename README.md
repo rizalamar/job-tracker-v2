@@ -2,6 +2,8 @@
 
 A simple job tracking application built with React and Vite.
 
+![Image](./public/job-tracker.png)
+
 ## Features
 
 -   Add, edit, and delete job entries
