@@ -48,7 +48,7 @@ Start the development server:
 npm run dev
 ```
 
-Open [http://localhost:5173](http://localhost:5173) in your browser to view the app.
+Open [Demo](https://rizalamar.github.io/job-tracker-v2/) in your browser to view the app.
 
 ## Project Structure
 
